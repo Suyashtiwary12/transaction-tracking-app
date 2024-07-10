@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const model = require("./models/transactionModel")
-// const database = require("./config/database");
+const database = require("./config/database");
 const dotenv= require("dotenv").config();
 
 app.use(cors());
