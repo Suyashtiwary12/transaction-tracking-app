@@ -1,21 +1,3 @@
-// import { useEffect } from 'react'
-// import { Form } from './components/form'
-// import { Transactionlist } from './components/transactionList'
-// import './App.css'
-// import "bootstrap/dist/css/bootstrap.min.css"
-// function App() {
-
- 
-//   return (
-//     <>
-//     <Form></Form>
-//     <Transactionlist></Transactionlist>
-//     </>
-//   )
-// }
-
-// export default App
-
 import React, { useState, useEffect } from 'react';
 import { Form } from './components/form';
 import { Transactionlist } from './components/transactionList';
