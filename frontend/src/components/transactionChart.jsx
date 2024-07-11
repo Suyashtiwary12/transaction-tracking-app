@@ -26,7 +26,9 @@ export const TransactionChart = ({ transactions }) => {
     },
   };
 
-  return <Line data={data} options={options} className='w-60 h-40' />;
+  return(  <div className="graph mx-auto sm:w-full sm:h-auto md:w-3/4 md:h-96 lg:w-[37.5rem] lg:h-[25rem]">
+  <Line data={data} options={options} />
+</div>)
 };
 
 
