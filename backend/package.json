@@ -5,15 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "deleteData":"nodemon deleteModel.js",
+    "start": "node index.js",
+    "deleteData": "nodemon deleteModel.js",
     "build": "echo 'No build step required'"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "express": "^4.18.2",
     "mongoose": "^8.2.0",
     "node-cron": "^3.0.3",
